@@ -7,32 +7,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        success: "#10b981",
-        info: "#3b82f6",
-        error: "#ef4444",
-        lightgray: "#f59e0b",
-        primary: {
-          DEFAULT: "#6366f1",
-          focus: "#4338ca",
+        primary: '#3B82F6',       // blue for buttons, tags
+        success: '#10B981',       // green for status badges
+        background: '#F3F4F6',    // light background (cards, page)
+        border: '#E5E7EB',        // borders, dividers
+        text: {
+          DEFAULT: '#111827',     // primary text
+          muted: '#6B7280',       // secondary/descriptive text
         },
-        accent: {
-          DEFAULT: "#5f5af6",
-          focus: "#4d47f5"
-        },
-        navy: {
-          50: "#e7e9ef", 
-          100: "#c2c9d6",
-          200: "#a5f3fc",
-          300: "#697a9b",
-          400: "#5c6b8a",
-          450: "#465675",
-          500: "#384766",
-          600: "#0891b2",
-          700: "#26334d",
-          800: "#202b40",
-          900: "#192132",
-        },
-      }
+        white: '#FFFFFF',
+      },
     },
   },
   plugins: [],
